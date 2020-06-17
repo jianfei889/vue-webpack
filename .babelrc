@@ -1,0 +1,20 @@
+// babel.config.js
+  {
+    "presets": ["env","stage-0"],
+
+     "plugins": ["transform-runtime",["component",[
+        {
+        "libraryName":"mint-ui",
+        "style":true
+    }
+    ]],"transform-remove-strict-mode"]
+  
+
+  //"plugins":["transform-runtime","transform-remove-strict-mode",["component",[{"libraryName":"mui","style":true}]]]
+
+}
+
+ 
+
+
+
